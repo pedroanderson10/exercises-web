@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <title>Utilizando formulários</title>
+        <meta charset="utf-8 /">
+        <link rel="stylesheet" type="text/css" href="E:\UFC\UFC 2020.1\WEB\html\8 - formularios.css" />
+    </head>
+
+    <body><!--GET:Envia as informações de forma q o navegador consiga mostrar isso no endereço da página.POST:Envia as informações em background, somente a página de progamação da action consiga ver as informações-->
+        <form action="" method="get" ><!--ACTION: Destino que vai processar o formulário. METHOD: A forma como essas informações serão enviadas para a página que estiver destinada dentro de action-->
+            <label for="nome">Nome:</label> <!--Etiqueta sobre o input de texto-->
+            <input id="nome" type="text" placeholder="Digite seu nome" name="nome" /> <!--Inserir texto / NAME: identificação do campo, como será chamado na hora de tratar as informações enviadas pelo formulário-->
+            <label for="opcao">Você gostou do site?</label>
+            <input id="opcao" type="radio" name="opcao" value="sim" checked="checked" />Sim <!--Criar enquete / CHECKED: Para uma opção já começar marcada-->
+            <input id="opcao" type="radio" name="opcao" value="nao" />Não
+            <label for="clube">Qual seu clube do coração?</label>
+            <input type="checkbox" name="SPFC" />SPFC
+            <input type="checkbox" name="FEC" />FEC
+            <input type="checkbox" name="FLA" />FLA
+            <input type="checkbox" name="CAP" />CAP
+            <textarea name="msg"></textarea>
+            <input type="submit" value="Enviar" />
+        </form>
+    </body>
+
+</html>

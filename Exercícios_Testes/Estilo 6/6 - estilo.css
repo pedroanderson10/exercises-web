@@ -1,0 +1,15 @@
+a{
+    color: red; 
+    text-decoration: none;
+    font-size: 20px;
+}
+h1{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:blue;
+}
+#segundo{
+    color: aqua;
+}
+body p a.classe1{
+    color: rgb(255, 0, 179);
+}
