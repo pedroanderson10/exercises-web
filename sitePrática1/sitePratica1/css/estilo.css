@@ -1,0 +1,40 @@
+body{
+    color:black;
+}
+a:link, a:visited{
+    color: black;
+    text-decoration: none;
+} 
+a:hover {
+    text-decoration: underline;
+}
+/*Layout do site*/
+.header{
+    background: blue;
+}
+#header{
+    background: red;
+}
+
+.footer{
+    background: blue;
+    color: black;
+    text-align: center;
+}
+#footer{
+    background: red;
+}
+
+.menu{
+    text-transform: uppercase;
+}
+
+.menu li a:hover{
+    text-decoration: none;
+    color: white;
+}
+
+.contato label{
+    display: block; /*Pra cada um ficar em uma linha, e não ao lado do outro*/
+    font-size: 15px;
+}
