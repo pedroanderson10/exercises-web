@@ -1,0 +1,98 @@
+body{
+    color: black;
+}
+a:link, a:visited{
+    color: black;
+    text-decoration: none;
+} 
+a:hover {
+    text-decoration: underline;
+}
+h:hover {
+    text-decoration: black;
+}
+/*GRID 960px | 960/12 = 80px (Fazer 60px com 10px de espaço em cada lado) */
+.linha{
+    width: 960px;
+    overflow: auto;
+}
+.coluna{
+    float: left;
+}
+.col1{
+    width: 60px;
+}
+.col2{
+    width: 140px;
+}
+.col3{
+    width: 220px;
+}
+.col4{
+    width: 300px;
+}
+.col5{
+    width: 380px;
+}
+.col6{
+    width: 460px;
+}
+.col7{
+    width: 540px;
+}
+.col8{
+    width: 620px;
+}
+.col9{
+    width: 700px;
+}
+.col10{
+    width: 780px;
+}
+.col11{
+    width: 860px;
+}
+.col12{
+    width: 940px;
+}
+
+/*Estilos reutilizáveis*/
+img{
+    max-width: 100%;
+    height: auto;
+}
+/*Layout do site*/
+.header{
+    background: blue;
+}
+
+h1.logo{
+    font-weight: 300;
+    color: black;
+}
+.conteudo-extra{
+    background: white;
+    background: black;
+    color: white;
+}
+.footer{
+    background: blue;
+    color: black;
+    text-align: center;
+}
+.menu{
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.menu li a:hover{
+    text-decoration: none;
+    background: black;
+    color: white;
+}
+
+.contato label{
+    display: block; /*Pra cada um ficar em uma linha, e não ao lado do outro*/
+    font-size: 10px;
+    font-weight: 300;
+}
