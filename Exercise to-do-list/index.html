@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>To Do App</title>
+    <link rel="stylesheet" type="text/css" href="css\style.css">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <div id="containerToDo">
+        <div id="contentToDo">
+            
+            <div id="texto">
+                <label>
+                    <h2>TAREFAS A FAZER (TO DO APP)</h2>
+                </label>
+            </div>
+
+            <div id="sub-texto">
+                <label style="color:yellow">Adicione o texto dentro da caixa de texto para inserir novas atividades.</label>
+                <label style="color:rgb(54, 255, 47)">Clique no item para marcar a atividades como completada.</label>
+                <label style="color:black">Clique no <span style="color: red;">"X"</span> da atividade para remover o item.</label>
+            </div>
+
+            <div id="containerNovaTarefa">
+                <div>
+                    <input type="text" name="novaTarefa" id="novaTarefa" placeholder="Nova tarefa..." maxlength="65" required />
+                    <input type="button" name="adicionarTarefaNova" id="adicionarTarefaNova" value="Adicionar" onclick="adicionarTarefa();" />
+                </div>
+            </div>
+
+            <div id="tarefas"> </div>
+        
+        </div>
+    </div>
+
+    <script src='js/functions.js'></script>
+</body>
+
+</html>

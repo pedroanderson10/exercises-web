@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    
+    <head>
+        <meta charset="UTF-8" /> 
+        <title>GOTY 2020</title>
+        <link rel="stylesheet" type="text/css" href="css\style.css" />
+    </head>
+
+    <body>
+        
+        <style>
+
+            input[type=text] {
+                width: 380px;
+                height: 20px;
+                border: none;
+                border-radius: 5px;
+            }
+
+            input[type=email] {
+                width: 380px;
+                height: 20px;
+                border: none;
+                border-radius: 5px;
+            }
+
+            select{
+                width: 382px;
+                height: 20px;
+                border: none;
+                border-radius: 5px;
+            }
+
+            input[type=submit]{
+                width: 380px;;
+                height: 30px;
+                background-color: red;
+                color: white;
+                border: none;
+                cursor: pointer;
+                border-radius: 5px;
+            }
+
+            textarea{
+                border: none;
+                border-radius: 5px;
+            }
+            
+        </style>
+
+        <div id="site">
+
+            <div id="img_fundo">
+                <img src="img/goty.jpeg" alt="The Game Awards Logo">
+            </div>
+
+            <div id="texto">
+                <p> <h1>Projeto GOTY</h1> </p>
+            </div>
+
+            <div id="sub-texto">
+                <p >The Game Awards 2020</p>
+            </div>
+
+            <div id="style_form">
+                <form action="" target="_self" method="POST">
+                    <div class="dados">
+                        <label for="name"> Nome</label> <br>
+                        <input type="text" name="name" id="name" value="Insira seu nome..." required  /> <br><br>
+
+                        <label for="email"> Email</label> <br>
+                        <input type="email" name="email" id="email" value="Insira seu email..." required  /> <br><br>
+
+                        <label for="name"> Idade(opcional)</label> <br>
+                        <input type="text" name="name" id="name" value="Insira sua idade..." /> <br><br>
+
+
+                        <label>Quantas horas você joga por semana?</label> <br>
+                        
+                        <select name="select" >
+                            <option value="r" selected >Selecione uma opção</option>
+                            <option value="r1">2-5 horas</option>  
+                            <option value="r2">6-10 horas</option>
+                            <option value="r3">Mais de 10 horas</option>
+                        </select> <br><br>
+
+                        
+                        <label for="botao_radio">Qual seu GOTY de 2020?</label> <br>
+
+                        <input type="radio" id="r1" name="resposta" value="resposta_1" checked/>
+                        <label for="r1">Cyberpunk 2077</label> <br>
+                        <input type="radio" id="r2" name="resposta" value="resposta_2" />
+                        <label for="r2">The Last Of Us 2</label> <br>
+                        <input type="radio" id="r3" name="resposta" value="resposta_3"/>
+                        <label for="r3">Doom Eternal</label> <br>
+                        <input type="radio" id="r4" name="resposta" value="resposta_4"/>
+                        <label for="r4">Assassin's Creed Valhalla</label> <br>
+                        <input type="radio" id="r5" name="resposta" value="resposta_5"/>
+                        <label for="r5">Outro</label> <br><br>
+                        
+                        
+                        <label for="botao_radio">Qual(is) sua(s) franquia(s) favorita(s)?</label> <br>
+                        
+                        <input type="checkbox" id="r11" name="resposta2" value="resposta_11" />
+                        <label for="r11">The Witcher</label> <br>
+                        <input type="checkbox" id="r22" name="resposta2" value="resposta_22" />
+                        <label for="r22">Resident Evil</label> <br>
+                        <input type="checkbox" id="r33" name="resposta2" value="resposta_33"/>
+                        <label for="r33">Zelda</label> <br>
+                        <input type="checkbox" id="r44" name="resposta2" value="resposta_44"/>
+                        <label for="r44">Mario</label> <br>
+                        <input type="checkbox" id="r55" name="resposta2" value="resposta_55"/>
+                        <label for="r55">Outro(s)</label> <br><br>
+
+                        <label for="mensagem">Algum comentário ou sugestão?</label> <br>
+                        <textarea id="mensagem" rows="5" cols="51">Insira seu comentário ou sugestão aqui...</textarea> <br><br>
+                        
+                        
+                        <input type="submit" class="botao" name="enviar" value="Enviar" required="true" />
+                    </div>
+                </form>
+
+            </div>
+        
+        </div>
+
+    </body>
+</html>

@@ -1,0 +1,98 @@
+body {
+    font-family: arial;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: rgb(36, 160, 209);
+}
+
+/* Container To Do */ 
+#containerToDo {
+    width: 830px;
+    margin: auto;
+    box-sizing: border-box;
+    padding: 4px;
+}
+
+#texto {
+    color: black;
+    text-align: center;
+}
+
+#sub-texto label {
+    margin-bottom: 15px;
+    font-size: 15px;
+    display: block;
+    text-align: center;
+}
+
+/* Container Nova Tarefa */
+#containerNovaTarefa * {
+    margin: auto;
+}
+
+#containerNovaTarefa {
+    margin: auto;
+    margin-top: 5px;
+    display: flex;
+}
+
+#adicionarTarefaNova {
+    width: 150px;
+    background-color: rgb(77, 72, 72);
+    color: rgb(36, 160, 209);
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    opacity: 90%;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+#adicionarTarefaNova:hover {
+    background-color: rgb(0, 217, 255);
+}
+
+input[type=text] {
+    width: 600px;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    padding-left: 6px;
+    box-sizing: border-box;
+}
+
+
+/* Container Tarefas */
+#tarefas * {
+    display: flex;
+    align-items: center;
+}
+
+.tarefaContainer {
+    background-color: rgb(147, 194, 212);
+    border: 1px solid rgb(105, 105, 105);
+    border-radius: 3px;
+    box-sizing: border-box;
+    padding: 5px;
+    padding-left: 8px;
+    margin-top: 5px;
+}
+
+.tarefaLabel {
+    justify-content: left;
+    font-weight: bold;
+}
+
+.tarefaBtn {
+    margin-left: 5px;
+    background-color: red;
+    border: 0px;
+    padding: 5px;
+    font-size: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
